@@ -1,12 +1,14 @@
 
 import os
 from commands.exit import ExitCommand
+from commands.fibbonaci import FibonacciCommand
 
 # Cross platform clear console
 clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
 
 commands = [
-  ExitCommand()
+  ExitCommand(),
+  FibonacciCommand()
 ]
 
 while True:
@@ -17,3 +19,4 @@ while True:
   print()
 
   commands[int(input("Please enter a command: "))].run()
+  input()
