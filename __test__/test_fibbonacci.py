@@ -2,7 +2,7 @@
 from functools import reduce
 from unittest import TestCase
 import unittest
-from commands.fibbonaci import FibonacciCommand
+from commands.fibonaci import FibonacciCommand
 
 class FibonacciTesting(TestCase):
     def __init__(self, methodName: str = ...) -> None:
