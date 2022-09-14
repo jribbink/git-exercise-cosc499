@@ -1,7 +1,7 @@
 
 import os
 from commands.exit import ExitCommand
-from commands.fibbonaci import FibonacciCommand
+from commands.fibonaci import FibonacciCommand
 
 # Cross platform clear console
 clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
