@@ -1,6 +1,6 @@
 # Python multi calculator
 
-This is a simple calculator in Python to do some basic operations.
+This is a simple calculator in Python to do some basic mathematical operations which might be difficult without a computer.
 
 ## Dependencies
 
@@ -23,8 +23,12 @@ Basic Calculator by Jordan Ribbink
 1. Calculate nth fibonacci number
 ```
 
-To choose a command, press the corresponding number and hit enter when prompted in the terminal
+To choose a command, press the corresponding number and hit enter when prompted in the terminal. When the command has completed, press enter to execute a new command.
 
 ### Fibonacci number
 
 The nth fibonacci number can be calculated by calling command `1`. It will then prompt you to input a value of `n`. Type in your value and press enter.
+
+### Binomial expansion
+
+The binomial expansion of n terms (x + y) can be calculated by calling command `2`. It will prompt you to input a value of `n`. Type in your value and press enter
