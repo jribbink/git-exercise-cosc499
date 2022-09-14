@@ -21,6 +21,7 @@ Basic Calculator by Jordan Ribbink
 
 0. Exit
 1. Calculate nth fibonacci number
+2. Binomial expansion
 ```
 
 To choose a command, press the corresponding number and hit enter when prompted in the terminal. When the command has completed, press enter to execute a new command.
