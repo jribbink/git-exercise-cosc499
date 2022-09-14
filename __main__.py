@@ -1,5 +1,6 @@
 
 import os
+from commands.binomial import BinomialCommand
 from commands.exit import ExitCommand
 from commands.fibonaci import FibonacciCommand
 
@@ -8,7 +9,8 @@ clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
 
 commands = [
   ExitCommand(),
-  FibonacciCommand()
+  FibonacciCommand(),
+  BinomialCommand()
 ]
 
 while True:
