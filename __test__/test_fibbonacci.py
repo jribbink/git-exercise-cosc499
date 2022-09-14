@@ -4,6 +4,9 @@ from unittest import TestCase
 import unittest
 from commands.fibonaci import FibonacciCommand
 
+'''
+Fibonacci unit tests
+'''
 class FibonacciTesting(TestCase):
     def __init__(self, methodName: str = ...) -> None:
         super().__init__(methodName)
