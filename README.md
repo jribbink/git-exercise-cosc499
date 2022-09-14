@@ -1,5 +1,7 @@
 # Python multi calculator
 
+Created by Jordan Ribbink
+
 This is a simple calculator in Python to do some basic mathematical operations which might be difficult without a computer.
 
 ## Dependencies
